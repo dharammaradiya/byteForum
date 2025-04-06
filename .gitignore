@@ -44,13 +44,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-
 # ==========================
 # Build Runner & Freezed
 # ==========================
 **/*.g.dart
 **/*.freezed.dart
-
 
 # ==========================
 # Editors
@@ -61,3 +59,6 @@ app.*.map.json
 *.iws
 # Uncomment if you don't want to track VS Code config
 # .vscode/
+
+# FVM Version Cache
+.fvm/
